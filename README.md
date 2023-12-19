@@ -1,1 +1,5 @@
-# generate-random-questions
+# Generate-Random-Questions
+## Project Description
+This project allows authorized users to upload a file containing a list of questions through a PHP program. The questions will be added into the database, ensuring that there will be no duplicate questions. Users can click the "Generate Random Question" button for a question to appear. This can be helpful for users who are preparing for interviews and need an application to randomly give them questions. The project uses JavaScript client-side validation to ensure data integrity and validate input fields. To improve the user experience, sessions are used so the user to stay signed in when they navigate through th eapplication. Password management is integrated so users are only signed in when they enter the correct password. Username uniqueness is enforced so the program checks that the username is unique in the database before allowing the user to successfully create an account.
+## Prerequisites
+- [XAMPP] (https://www.apachefriends.org/): This project is developed using PHP and uses XAMPP for local development.
